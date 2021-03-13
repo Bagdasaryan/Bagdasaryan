@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T11:28:06.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="HtPKXPxj4ZqqjAu7X_V_" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-13T19:44:39.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="2HAWJDYQMNWdjClRyvl1" version="14.4.8" type="github">
   <diagram id="j850rsy9zMjjg5aDE9rX" name="Page-1">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1786" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-20" value="Присвоить истину флагу правильности ввода данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-20" value="Присвоить истину флагу истинности ввода данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="640" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-18" target="yiYiCe4EvvSNOmWsxo8L-20">
