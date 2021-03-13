@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T10:14:32.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sIVhfdBqLVXhJU9rdkt9" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-13T10:20:59.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="50YrjjR8I9c8dpj7M2kr" version="14.4.8" type="github">
   <diagram id="j850rsy9zMjjg5aDE9rX" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,12 +35,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-12" value="Вывод&lt;br&gt;&quot;Введите диапазон от &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="440" width="160" height="80" as="geometry" />
+          <mxGeometry x="320" y="410" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-10" target="yiYiCe4EvvSNOmWsxo8L-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="500" as="sourcePoint" />
             <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-14" value="Ввод&lt;br&gt;c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-12" target="yiYiCe4EvvSNOmWsxo8L-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-16" value="Вывод&lt;br&gt;&quot;Введите диапазон до &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-14" target="yiYiCe4EvvSNOmWsxo8L-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-18" value="Ввод&lt;br&gt;d" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-16" target="yiYiCe4EvvSNOmWsxo8L-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="800" as="sourcePoint" />
+            <mxPoint x="440" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-20" value="Присвоить истину флагу правильности ввода данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-18" target="yiYiCe4EvvSNOmWsxo8L-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="880" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
