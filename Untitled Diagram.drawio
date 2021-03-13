@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T11:15:06.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="7z4nieXyN31LMyzomVCC" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-13T11:28:06.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="HtPKXPxj4ZqqjAu7X_V_" version="14.4.8" type="github">
   <diagram id="j850rsy9zMjjg5aDE9rX" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,76 +16,98 @@
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-5" value="Инициализация&lt;br&gt;input,&lt;br&gt;c:=0, d:=0, q:=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="100" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-5" target="yiYiCe4EvvSNOmWsxo8L-9">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-5" target="yiYiCe4EvvSNOmWsxo8L-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="230" as="sourcePoint" />
-            <mxPoint x="400" y="200" as="targetPoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-9" value="Инициализация&lt;br&gt;inputWasGood:=false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="160" height="80" as="geometry" />
+          <mxGeometry x="550" y="100" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-10" value="Пока неправильный тип ввода данных" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="310" width="160" height="80" as="geometry" />
+          <mxGeometry x="320" y="230" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-9" target="yiYiCe4EvvSNOmWsxo8L-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="610" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="200" />
+              <mxPoint x="400" y="200" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-12" value="Вывод&lt;br&gt;&quot;Введите диапазон от &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="410" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="320" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-10" target="yiYiCe4EvvSNOmWsxo8L-12">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-10" target="yiYiCe4EvvSNOmWsxo8L-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="500" as="sourcePoint" />
             <mxPoint x="440" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="360" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-14" value="Ввод&lt;br&gt;c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="510" width="160" height="80" as="geometry" />
+          <mxGeometry x="320" y="400" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-12" target="yiYiCe4EvvSNOmWsxo8L-14">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-12" target="yiYiCe4EvvSNOmWsxo8L-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="600" as="sourcePoint" />
             <mxPoint x="440" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="440" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-16" value="Вывод&lt;br&gt;&quot;Введите диапазон до &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="610" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="480" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-14" target="yiYiCe4EvvSNOmWsxo8L-16">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-14" target="yiYiCe4EvvSNOmWsxo8L-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="600" as="sourcePoint" />
             <mxPoint x="400" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="520" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-18" value="Ввод&lt;br&gt;d" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="710" width="160" height="80" as="geometry" />
+          <mxGeometry x="320" y="560" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-16" target="yiYiCe4EvvSNOmWsxo8L-18">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-19" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-16" target="yiYiCe4EvvSNOmWsxo8L-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="800" as="sourcePoint" />
             <mxPoint x="440" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="600" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-20" value="Присвоить истину флагу правильности ввода данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="810" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="640" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-18" target="yiYiCe4EvvSNOmWsxo8L-20">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-18" target="yiYiCe4EvvSNOmWsxo8L-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="880" as="sourcePoint" />
             <mxPoint x="440" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="680" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-22" value="Если конец диапазона больше, чем начало" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="910" width="160" height="80" as="geometry" />
+          <mxGeometry x="360" y="720" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-20" target="yiYiCe4EvvSNOmWsxo8L-22">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-20" target="yiYiCe4EvvSNOmWsxo8L-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="1160" as="sourcePoint" />
             <mxPoint x="440" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="760" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-26" value="Да" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-22" target="yiYiCe4EvvSNOmWsxo8L-27">
@@ -95,14 +117,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-27" value="Вывод&lt;br&gt;&quot;Неправильный ввод промежутка&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="910" width="160" height="80" as="geometry" />
+          <mxGeometry x="550" y="720" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-30" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-27" target="yiYiCe4EvvSNOmWsxo8L-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="710" as="sourcePoint" />
             <mxPoint x="490" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="350" />
+              <mxPoint x="630" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -113,84 +135,130 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-33" value="Вывод&lt;br&gt;&quot;Введите сумму цифр&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1020" width="160" height="80" as="geometry" />
+          <mxGeometry x="360" y="840" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-35" value="Ввод&lt;br&gt;q" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1120" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="920" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-36" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-33" target="yiYiCe4EvvSNOmWsxo8L-35">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-36" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-33" target="yiYiCe4EvvSNOmWsxo8L-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1240" as="sourcePoint" />
             <mxPoint x="520" y="1190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="960" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-37" value="Конец цикла по вводу правильных типов данных" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1220" width="160" height="80" as="geometry" />
+          <mxGeometry x="550" y="1000" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-35" target="yiYiCe4EvvSNOmWsxo8L-37">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-35" target="yiYiCe4EvvSNOmWsxo8L-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1140" as="sourcePoint" />
             <mxPoint x="520" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="1040" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-37" target="yiYiCe4EvvSNOmWsxo8L-44">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-37" target="yiYiCe4EvvSNOmWsxo8L-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1440" as="sourcePoint" />
             <mxPoint x="400" y="1470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="1320" />
+              <mxPoint x="630" y="1110" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-44" value="Цикл i&lt;br&gt;от c до d" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1280" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="1070" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-44" target="yiYiCe4EvvSNOmWsxo8L-46">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-44" target="yiYiCe4EvvSNOmWsxo8L-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1560" as="sourcePoint" />
             <mxPoint x="600" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="1190" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-46" value="Если нат. ч-ло и сумма цифр равна q" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1380" width="160" height="80" as="geometry" />
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-46" value="Натур. ч-ло и сумма&lt;br&gt;&amp;nbsp;цифр равна q" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1150" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-47" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-46" target="yiYiCe4EvvSNOmWsxo8L-49">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-47" value="Да" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-46" target="yiYiCe4EvvSNOmWsxo8L-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1550" as="sourcePoint" />
-            <mxPoint x="600" y="1520" as="targetPoint" />
+            <mxPoint x="720" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="1190" />
+              <mxPoint x="740" y="1320" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-49" value="Цикл i&lt;br&gt;увеличить &lt;br&gt;i на 1" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1480" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="1280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-50" value="Если не было найдено соотв. число" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1560" width="160" height="80" as="geometry" />
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-50" value="Не было найдено соотв. число" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1390" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-51" value="" style="endArrow=classic;html=1;exitX=0.438;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-49" target="yiYiCe4EvvSNOmWsxo8L-50">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-51" value="" style="endArrow=classic;html=1;exitX=0.438;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-49" target="yiYiCe4EvvSNOmWsxo8L-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1630" as="sourcePoint" />
             <mxPoint x="550" y="1580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="1600" />
+              <mxPoint x="240" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-52" value="Вывод&lt;br&gt;&quot;Необходимых чисел нет&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1660" width="160" height="80" as="geometry" />
+          <mxGeometry x="150" y="1470" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-53" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-50" target="yiYiCe4EvvSNOmWsxo8L-52">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-53" value="Да" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-50" target="yiYiCe4EvvSNOmWsxo8L-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1720" as="sourcePoint" />
             <mxPoint x="550" y="1670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="1430" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yiYiCe4EvvSNOmWsxo8L-54" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1760" width="160" height="40" as="geometry" />
+          <mxGeometry x="360" y="1550" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yiYiCe4EvvSNOmWsxo8L-55" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-52" target="yiYiCe4EvvSNOmWsxo8L-54">
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-55" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-52" target="yiYiCe4EvvSNOmWsxo8L-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1920" as="sourcePoint" />
             <mxPoint x="550" y="1870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-56" value="Вывод&lt;br&gt;i+&quot;, &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-57" value="Нет" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-46" target="yiYiCe4EvvSNOmWsxo8L-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1340" as="sourcePoint" />
+            <mxPoint x="560" y="1290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-58" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-56" target="yiYiCe4EvvSNOmWsxo8L-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1340" as="sourcePoint" />
+            <mxPoint x="560" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yiYiCe4EvvSNOmWsxo8L-59" value="Нет" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yiYiCe4EvvSNOmWsxo8L-50" target="yiYiCe4EvvSNOmWsxo8L-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1640" as="sourcePoint" />
+            <mxPoint x="540" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1470" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
