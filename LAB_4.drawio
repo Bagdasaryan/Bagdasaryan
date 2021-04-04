@@ -1,1 +1,210 @@
-<mxfile host="app.diagrams.net" modified="2021-04-04T08:25:40.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.0" etag="XWnnqcjth_pNuR1JDFPI" type="github"><diagram id="UIl2BuWlWDyx0NAOESlJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-04T09:05:37.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Hm5ApbLI4OHBaPLshkb7" version="14.5.0" type="github">
+  <diagram id="UIl2BuWlWDyx0NAOESlJ" name="Page-1">
+    <mxGraphModel dx="1221" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-1" value="Начало" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=20;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-1" target="sR0ehbeBcY5pEOZDSACe-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-3" value="Заполнение класса данными" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-4" value="Выбор дальнейшего действия" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-3" target="sR0ehbeBcY5pEOZDSACe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-6" value="Это 1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-4" target="sR0ehbeBcY5pEOZDSACe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-8" value="Нет" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-6" target="sR0ehbeBcY5pEOZDSACe-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-9" value="Это 2" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-10" value="Нет" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-9" target="sR0ehbeBcY5pEOZDSACe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="470" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="530" />
+              <mxPoint x="240" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-11" value="Да" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-9" target="sR0ehbeBcY5pEOZDSACe-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="770" as="sourcePoint" />
+            <mxPoint x="414" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-12" value="Нахождение информации о наиболее редко вызываемом эвакуаторе по номеру телефона" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="334" y="860" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-12" target="sR0ehbeBcY5pEOZDSACe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="1020" as="sourcePoint" />
+            <mxPoint x="414" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-14" value="Нахождение информации об эвакуаторах по номеру эвакуированного автомобиля" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="334" y="970" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-15" value="Нет" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-6" target="sR0ehbeBcY5pEOZDSACe-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="420" />
+              <mxPoint x="590" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-16" value="Конец" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-20;entryPerimeter=0;strokeWidth=1;spacing=2;fontSize=13;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-14" target="sR0ehbeBcY5pEOZDSACe-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="1080" as="sourcePoint" />
+            <mxPoint x="454" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-18" value="A" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-19" value="B" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="470" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-20" value="A" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="374" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-21" value="Да" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;spacing=2;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-20" target="sR0ehbeBcY5pEOZDSACe-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="950" as="sourcePoint" />
+            <mxPoint x="414" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-22" value="B" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="520" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-23" value="Нет" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;spacing=2;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-22" target="sR0ehbeBcY5pEOZDSACe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="780" as="sourcePoint" />
+            <mxPoint x="670" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="790" />
+              <mxPoint x="710" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-24" value="Начало" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1290" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-25" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=0.5;exitY=0.5;exitDx=0;exitDy=20;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-24" target="sR0ehbeBcY5pEOZDSACe-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1490" as="sourcePoint" />
+            <mxPoint x="400" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-26" value="Ввод&lt;br&gt;номера телефона" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-27" value="Найдены эвакуаторы по такому номеру" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1450" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-28" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-26" target="sR0ehbeBcY5pEOZDSACe-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1590" as="sourcePoint" />
+            <mxPoint x="350" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-29" value="Да" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-27" target="sR0ehbeBcY5pEOZDSACe-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1590" as="sourcePoint" />
+            <mxPoint x="400" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-30" value="Вывод&lt;br&gt;информации о наиболее редко вызываемом" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-31" value="Нет" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-27" target="sR0ehbeBcY5pEOZDSACe-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1690" as="sourcePoint" />
+            <mxPoint x="580" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1490" />
+              <mxPoint x="530" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-32" value="Конец" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1670" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-33" value="Начало" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1840" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-34" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=0.5;exitY=0.5;exitDx=0;exitDy=20;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-33" target="sR0ehbeBcY5pEOZDSACe-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="2040" as="sourcePoint" />
+            <mxPoint x="400" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-35" value="Ввод&lt;br&gt;номера автомобиля" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1900" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-36" value="Найдены эвакуаторы по номеру эвакуир. автомобиля" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2000" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-37" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-35" target="sR0ehbeBcY5pEOZDSACe-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="2140" as="sourcePoint" />
+            <mxPoint x="350" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-38" value="Да" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-36" target="sR0ehbeBcY5pEOZDSACe-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="2140" as="sourcePoint" />
+            <mxPoint x="400" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-39" value="Вывод&lt;br&gt;информации об эвакуаторах" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2110" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-40" value="Нет" style="endArrow=classic;html=1;strokeWidth=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sR0ehbeBcY5pEOZDSACe-36" target="sR0ehbeBcY5pEOZDSACe-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="2240" as="sourcePoint" />
+            <mxPoint x="580" y="2250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="2040" />
+              <mxPoint x="530" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sR0ehbeBcY5pEOZDSACe-41" value="Конец" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;strokeWidth=1;spacing=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2220" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
