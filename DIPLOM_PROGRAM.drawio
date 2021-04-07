@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T19:36:27.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="opdKRuX7KTGM2-bRXTZt" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T20:25:39.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ufQgK03-YinqhJaQTOV0" version="14.5.7" type="github">
   <diagram id="v8FJ9KeOEFhYo0yKaHKQ" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,81 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="730" as="sourcePoint" />
             <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-27" value="Получение данных из БД настроек виджета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-25" target="jtxJzJimyHoa9bIYIyS_-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="820" as="sourcePoint" />
+            <mxPoint x="440" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-29" value="Отключены последние предприятия" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="960" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-30" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-27" target="jtxJzJimyHoa9bIYIyS_-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="920" as="sourcePoint" />
+            <mxPoint x="440" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-31" value="Да" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-29" target="jtxJzJimyHoa9bIYIyS_-32">
+          <mxGeometry x="-0.5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1120" as="sourcePoint" />
+            <mxPoint x="400" y="1070" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-32" value="Вывод&lt;br&gt;Отключены последние предприятия." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1070" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-34" value="Нет" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-29" target="jtxJzJimyHoa9bIYIyS_-35">
+          <mxGeometry x="-0.875" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1200" as="sourcePoint" />
+            <mxPoint x="570" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1000" />
+              <mxPoint x="520" y="1240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-35" value="Отображать вертикальный список со значениями из массива по последним предприятиям" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-36" value="Отключены избранные предприятия" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-37" value="Да" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-36" target="jtxJzJimyHoa9bIYIyS_-38">
+          <mxGeometry x="-0.5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384" y="1460" as="sourcePoint" />
+            <mxPoint x="394" y="1410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-38" value="Вывод&lt;br&gt;Отключены избранные предприятия." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1410" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-39" value="Нет" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-36" target="jtxJzJimyHoa9bIYIyS_-40">
+          <mxGeometry x="-0.875" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384" y="1540" as="sourcePoint" />
+            <mxPoint x="564" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1340" />
+              <mxPoint x="520" y="1580" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-40" value="Отображать вертикальный список со значениями из массива по избранным предприятиям" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxJzJimyHoa9bIYIyS_-42" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxJzJimyHoa9bIYIyS_-35" target="jtxJzJimyHoa9bIYIyS_-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1210" as="sourcePoint" />
+            <mxPoint x="440" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
