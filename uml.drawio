@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T18:13:06.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="4Hea-_arI2r8CKOMK43y" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T18:30:42.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="pCSqn5Cb5v1cH-YF4JK-" version="14.6.0" type="github">
   <diagram id="anAy9yI8WTqOqoTKuphk" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-1" value="AIWdataRepositoryGet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="240" height="170" as="geometry" />
+          <mxGeometry x="30" y="40" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-2" value="+ dataRepo: DataRepository&#xa;+ profileInteractor: ProfileInteractor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-1">
-          <mxGeometry y="26" width="240" height="44" as="geometry" />
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-1">
-          <mxGeometry y="70" width="240" height="8" as="geometry" />
+          <mxGeometry y="70" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-4" value="+ getDataRepository(rids: &#xa;       List&lt;String&gt;): &#xa;       Single&lt;List&lt;CompanyInfoStruct&gt;&gt;&#xa;+ getChosenMerchantsList(): &#xa;       List&lt;String&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-1">
-          <mxGeometry y="78" width="240" height="92" as="geometry" />
+          <mxGeometry y="78" width="280" height="92" as="geometry" />
         </mxCell>
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-5" value="ActualInfoWidgetActivity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="40" width="280" height="120" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="98" width="280" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-13" value="ActualInformationWidget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="390" width="280" height="580" as="geometry" />
+          <mxGeometry x="30" y="230" width="280" height="620" as="geometry" />
         </mxCell>
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-14" value="- isClicked: Boolean&#xa;- GET_WIDGET_ID: String&#xa;- AIW_LEFT_SCROLL_BUTTON: String&#xa;- AIW_RIGHT_SCROLL_BUTTON: String&#xa;- ACTION_ON_CLICK_LV: String&#xa;- AIW_FROM_WIDGET: String&#xa;+ ITEM_POSITION: String&#xa;+ AIW_GO_TO_ACTIVITY: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-13">
           <mxGeometry y="26" width="280" height="124" as="geometry" />
@@ -49,7 +49,43 @@
         <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-13">
           <mxGeometry y="150" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-16" value="+ onUpdate(&#xa;     context: Context,&#xa;     appWidgetManager: AppWidgetManager,&#xa;     appWidgetIds: IntArray&#xa;     ): Void &#xa;+onReceive(context: Context, &#xa;     intent: Intent): Void&#xa;- updateAppWidget(&#xa;     context: Context,&#xa;     appWidgetManager: AppWidgetManager,&#xa;     appWidgetId: Int&#xa;     ): Void&#xa;- checkIntentAction(context: Context, &#xa;     intent: Intent, views: RemoteViews, &#xa;     appWidgetManager: AppWidgetManager)&#xa;     : Void &#xa;-getPendingSelfIntent(context: Context,&#xa;      action: String,&#xa;      appWidgetId: Int): PendingIntent&#xa;- showLastCompanies(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void&#xa;- showChosenCompanies(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void&#xa;- setListClick(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-13">
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-16" value="+ onUpdate(&#xa;     context: Context,&#xa;     appWidgetManager: AppWidgetManager,&#xa;     appWidgetIds: IntArray&#xa;     ): Void &#xa;&#xa;+onReceive(context: Context, &#xa;     intent: Intent): Void&#xa;&#xa;- updateAppWidget(&#xa;     context: Context,&#xa;     appWidgetManager: AppWidgetManager,&#xa;     appWidgetId: Int&#xa;     ): Void&#xa;&#xa;- checkIntentAction(context: Context, &#xa;     intent: Intent, views: RemoteViews, &#xa;     appWidgetManager: AppWidgetManager)&#xa;     : Void &#xa;&#xa;-getPendingSelfIntent(context: Context,&#xa;      action: String,&#xa;      appWidgetId: Int): PendingIntent&#xa;&#xa;- showLastCompanies(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void&#xa;&#xa;- showChosenCompanies(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void&#xa;&#xa;- setListClick(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-13">
+          <mxGeometry y="158" width="280" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-17" value="CompanyInfoStruct" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="226" width="280" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-18" value="+ companyName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-17">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-19" value="+ companyLogoInfo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-17">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-20" value="+ companySpecialization: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-17">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-21" value="LastAndChosenCompaniesStruct" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-22" value="+ chosenDate: Long&#xa;+ settedDate: Long&#xa;+ isLastCompaniesDisplay&#xa;+ isChosenCompaniesDisplay" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-21">
+          <mxGeometry y="26" width="280" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-26" value="UnpaidBillsStruct" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="481" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-27" value="+ settedDate: Long&#xa;+ chosenDate: Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-26">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-30" value="UnpaidBillsWidget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="280" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-31" value="- isClicked: Boolean&#xa;- GET_WIDGET_ID: String&#xa;- AIW_LEFT_SCROLL_BUTTON: String&#xa;- AIW_RIGHT_SCROLL_BUTTON: String&#xa;- ACTION_ON_CLICK_LV: String&#xa;- AIW_FROM_WIDGET: String&#xa;+ ITEM_POSITION: String&#xa;+ AIW_GO_TO_ACTIVITY: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-30">
+          <mxGeometry y="26" width="280" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-30">
+          <mxGeometry y="150" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3jmQzQCZ1PrEpi4vK5F-33" value="+ onUpdate(&#xa;     context: Context,&#xa;     appWidgetManager: AppWidgetManager,&#xa;     appWidgetIds: IntArray&#xa;     ): Void &#xa;&#xa;+onReceive(context: Context, &#xa;     intent: Intent): Void&#xa;&#xa;- updateAppWidget(&#xa;     context: Context,&#xa;     appWidgetManager: AppWidgetManager,&#xa;     appWidgetId: Int&#xa;     ): Void&#xa;&#xa;- checkIntentAction(context: Context, &#xa;     intent: Intent, views: RemoteViews, &#xa;     appWidgetManager: AppWidgetManager)&#xa;     : Void &#xa;&#xa;-getPendingSelfIntent(context: Context,&#xa;      action: String,&#xa;      appWidgetId: Int): PendingIntent&#xa;&#xa;- showUnpaidBills(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void&#xa;&#xa;- setListClick(rv: RemoteViews, &#xa;     context: Context, appWidgetId: Int): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z3jmQzQCZ1PrEpi4vK5F-30">
           <mxGeometry y="158" width="280" height="422" as="geometry" />
         </mxCell>
       </root>
