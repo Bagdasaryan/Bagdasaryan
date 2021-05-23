@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T19:16:02.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ES3i15wbCY2tSdT0NApm" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-23T20:41:08.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hCjAiLD4-M_82ncu7XjG" version="14.6.9" type="github">
   <diagram id="anAy9yI8WTqOqoTKuphk" name="Page-1">
     <mxGraphModel dx="1221" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,11 +256,23 @@
         <mxCell id="T2P1ssfr1ydrcSsm6RWo-20" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="420" y="410" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhBAYq-X8l_v-nn73xJQ-1" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T2P1ssfr1ydrcSsm6RWo-12" target="Z3jmQzQCZ1PrEpi4vK5F-4">
+        <mxCell id="rhBAYq-X8l_v-nn73xJQ-1" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T2P1ssfr1ydrcSsm6RWo-12" target="Z3jmQzQCZ1PrEpi4vK5F-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="490" as="sourcePoint" />
             <mxPoint x="450" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="P3-zGeI-8-pYrvTQsr1W-1" value="McShortcuts" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1520" width="280" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="P3-zGeI-8-pYrvTQsr1W-2" value="- merchantShortcutsId: String&#xa;- billsShortcutId: String&#xa;- billPaymentsShortcutId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P3-zGeI-8-pYrvTQsr1W-1">
+          <mxGeometry y="26" width="280" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="P3-zGeI-8-pYrvTQsr1W-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="P3-zGeI-8-pYrvTQsr1W-1">
+          <mxGeometry y="90" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="P3-zGeI-8-pYrvTQsr1W-4" value="+ Shortcuts(): String&#xa;+ setUp(): void&#xa;- createShortcut(): ShortcutInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="P3-zGeI-8-pYrvTQsr1W-1">
+          <mxGeometry y="98" width="280" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
